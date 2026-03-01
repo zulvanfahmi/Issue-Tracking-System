@@ -90,6 +90,7 @@ Endpoint `/api/tickets` mendukung:
 ## 📡 API Documentation
 
 Detail request & response dapat diakses melalui Swagger setelah aplikasi dijalankan:
+
 http://localhost:8080/swagger-ui/index.html
 
 
@@ -135,6 +136,7 @@ http://localhost:8080/swagger-ui/index.html
 ## 🔑 Authorization
 
 Gunakan JWT Token pada setiap request (kecuali login):
+
 Authorization: Bearer <your_token>
 
 Token didapat dari endpoint login.
@@ -144,11 +146,15 @@ Token didapat dari endpoint login.
 ### 🔐 Dummy Accounts
 
 **Admin**
+
 username: edo_user
+
 password: password123
 
 **Regular User**
+
 username: andi_user
+
 password: password123
 
 ---
